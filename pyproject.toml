@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prefab-cloud-django"
+version = "0.1.0"
+description = ""
+authors = ["Michael Berkowitz <michael.berkowitz@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prefab_cloud_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2"
+prefab-cloud-python = { "git" = "git@github.com:prefab-cloud/prefab-cloud-python" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
