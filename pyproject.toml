@@ -9,7 +9,7 @@ packages = [{include = "prefab_cloud_django"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.2"
-prefab-cloud-python = { "git" = "git@github.com:prefab-cloud/prefab-cloud-python" }
+prefab-cloud-python = { "git" = "git@github.com:prefab-cloud/prefab-cloud-python#egg=prefab_cloud_python", branch = "main" }
 
 
 [build-system]
