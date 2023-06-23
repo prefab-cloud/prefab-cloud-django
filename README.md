@@ -16,7 +16,7 @@ options = prefab.Options(
 )
 
 PREFAB = prefab.Client(options)
-LOGGER = PREFAB.logger()
+LOGGER = PREFAB.logger
 ```
 
 3. In your templates, add `{% load prefab_tags %}`
@@ -32,4 +32,4 @@ LOGGER = PREFAB.logger()
 {% prefab_get "name-of-config" lookup_key="lookup_key" %}
 ```
 
-[prefabpython]: https://github.com/prefab-cloud/prefab-cloud-python
+[prefabpython]: https://pypi.org/project/prefab-cloud-python/
