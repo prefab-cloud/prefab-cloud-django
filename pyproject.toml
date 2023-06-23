@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "prefab-cloud-django"
-version = "0.1.1"
+version = "0.2.0"
 description = "Custom template tags for using prefab-cloud-python in Django applications"
 authors = ["Michael Berkowitz <michael.berkowitz@gmail.com>"]
 readme = "README.md"
