@@ -27,9 +27,13 @@ LOGGER = PREFAB.logger
 {% prefab_get "name-of-config" %}
 {% prefab_enabled "name-of-flag" %}
 
-# with lookup key
+# with default
 
-{% prefab_get "name-of-config" lookup_key="lookup_key" %}
+{% prefab_get "name-of-config" default="default" %}
+
+# with context
+
+{% prefab_get "name-of-config" context=context %}
 ```
 
 [prefabpython]: https://pypi.org/project/prefab-cloud-python/
